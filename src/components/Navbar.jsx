@@ -8,10 +8,10 @@ function Navbar(){
     <div>
       <style jsx>{`
         background: salmon;
+        display: flex;
+        justify-content: space-around;
+        padding: 7px;
       `}</style>
-      <h2>
-        Navbar works!
-      </h2>
       <About />
       <Contact />
       <Arts />

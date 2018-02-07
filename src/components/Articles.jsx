@@ -5,6 +5,7 @@ function Articles(){
     <div>
       <style jsx>{`
         background: salmon;
+        border: 1px solid black;
       `}</style>
       <h2>
         Articles works!

@@ -1,5 +1,6 @@
 import React from 'react';
 import SearchHeader from './SearchHeader';
+import Logo from './Logo';
 import Navbar from './Navbar';
 
 function Header(){
@@ -7,11 +8,12 @@ function Header(){
     <div>
       <style jsx>{`
         background: darkred;
+        display: flex;
+        justify-content: space-between;
+        flex-direction column;
       `}</style>
-      <h1>
-        Header works!
-      </h1>
       <SearchHeader />
+      <Logo />
       <Navbar />
     </div>
   );

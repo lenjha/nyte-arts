@@ -9,14 +9,17 @@ function Body(){
     <div>
       <style jsx>{`
         background: darkred;
+        display: flex;
+        flex-direction: row;
+        height: 112vh;
+        width: 100%;
       `}</style>
-      <h1>
-        Body works!
-      </h1>
       <BreakingNews />
       <Articles />
-      <FeaturedArtist />
-      <TwitterFeed />
+      <div style={{display: 'flex', flexDirection: 'column'}}>
+        <FeaturedArtist />
+        <TwitterFeed />
+      </div>
     </div>
   );
 }

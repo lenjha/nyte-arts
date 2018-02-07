@@ -9,6 +9,8 @@ function App() {
     <div>
       <style jsx>{`
           background: darkgray;
+          display: flex;
+          flex-direction: column;
       `}</style>
       <Header />
       <AdSection />

@@ -2,9 +2,10 @@ import React from 'react';
 
 function BreakingNews(){
   return(
-    <div>
+    <div >
       <style jsx>{`
         background: salmon;
+        border: 1px solid black;
       `}</style>
       <h2>
         BreakingNews works!

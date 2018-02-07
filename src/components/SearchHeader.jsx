@@ -7,10 +7,9 @@ function SearchHeader(){
     <div>
       <style jsx>{`
         background: salmon;
+        display: flex;
+        justify-content: space-around;
       `}</style>
-      <h2>
-        SearchHeader works!
-      </h2>
       <SearchBar />
       <Login />
     </div>

@@ -1,16 +1,16 @@
 import React from 'react';
 
-function AdSection(){
+function Logo(){
   return(
     <div>
       <style jsx>{`
-        background: grey;
+        text-align: center;
       `}</style>
       <h1>
-        AdSection works!
+        NYTE ARTS
       </h1>
     </div>
   );
 }
 
-export default AdSection;
+export default Logo;
