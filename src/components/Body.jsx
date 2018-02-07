@@ -16,7 +16,7 @@ function Body(){
       `}</style>
       <BreakingNews />
       <Articles />
-      <div style={{display: 'flex', flexDirection: 'column'}}>
+      <div style={{display: 'flex', flexDirection: 'column', width: '30%'}}>
         <FeaturedArtist />
         <TwitterFeed />
       </div>

@@ -5,6 +5,9 @@ function FeaturedArtist(){
     <div>
       <style jsx>{`
         background: salmon;
+        border: 1px solid black;
+        height: 30%;
+
       `}</style>
       <h2>
         FeaturedArtist works!

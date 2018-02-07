@@ -5,6 +5,7 @@ function TwitterFeed(){
     <div>
       <style jsx>{`
         background: salmon;
+        height: 70%;
       `}</style>
       <h2>
         TwitterFeed works!
