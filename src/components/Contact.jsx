@@ -4,9 +4,9 @@ function Contact(){
   return(
     <div>
       <style jsx>{`
-        background: lavender;
+        color: lightgray;
       `}</style>
-      Contact works!
+      Contact
     </div>
   );
 }

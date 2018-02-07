@@ -1,14 +1,15 @@
 import React from 'react';
+import mayaAd from '../assets/img/maya-ad.png';
 
 function AdSection(){
   return(
     <div>
       <style jsx>{`
-        background: grey;
+        background: black;
+        text-align: center;
+        padding: 7px 0;
       `}</style>
-      <h1>
-        AdSection works!
-      </h1>
+      <img src={mayaAd}/>
     </div>
   );
 }

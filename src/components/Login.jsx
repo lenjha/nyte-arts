@@ -4,9 +4,9 @@ function Login(){
   return(
     <div>
       <style jsx>{`
-        background: lavender;
+        color: lightgrey;
       `}</style>
-      Login works!
+      Login
     </div>
   );
 }

@@ -4,9 +4,9 @@ function Arts(){
   return(
     <div>
       <style jsx>{`
-        background: lavender;
+        color: lightgray;
       `}</style>
-      Arts works!
+      Artwork
     </div>
   );
 }

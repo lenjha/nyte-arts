@@ -7,7 +7,7 @@ function Navbar(){
   return(
     <div>
       <style jsx>{`
-        background: salmon;
+        background: #081933;
         display: flex;
         justify-content: space-around;
         padding: 7px;

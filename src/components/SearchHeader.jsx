@@ -6,9 +6,10 @@ function SearchHeader(){
   return(
     <div>
       <style jsx>{`
-        background: salmon;
+        background: black;
         display: flex;
         justify-content: space-around;
+        padding: 1em;
       `}</style>
       <SearchBar />
       <Login />

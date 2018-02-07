@@ -10,7 +10,7 @@ function Logo(){
         font-family: sans-serif;
         h1 {
           font-family: 'Bungee Hairline', cursive;
-          font-size: 7em;
+          font-size: 9em;
           margin-bottom: 0;
         }
         p {

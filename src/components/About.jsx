@@ -4,9 +4,9 @@ function About(){
   return(
     <div>
       <style jsx>{`
-        background: lavender;
+        color: lightgray;
       `}</style>
-      About works!
+      About
     </div>
   );
 }
