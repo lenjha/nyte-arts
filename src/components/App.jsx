@@ -11,6 +11,7 @@ function App() {
           background: darkgray;
           display: flex;
           flex-direction: column;
+          font-family: 'Open Sans', sans-serif;
       `}</style>
       <Header />
       <AdSection />
