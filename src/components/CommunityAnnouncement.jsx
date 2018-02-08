@@ -14,7 +14,7 @@ function CommunityAnnouncement(props){
       <p><em>{props.author}, {props.date}</em></p>
       <p>{props.content}</p>
       <p>{props.comments}</p>
-      <hr></hr>
+      <hr />
     </div>
   );
 }

@@ -6,6 +6,7 @@ function Logo(){
     textDecoration:'none',
     color:'white'
   };
+
   return(
     <div>
       <style jsx>{`
@@ -18,7 +19,7 @@ function Logo(){
           margin-bottom: 0;
           font-family: 'Bungee Hairline', cursive;
         }
-        a{
+        a {
           font-family: 'Bungee Hairline', cursive;
         }
         a:hover {
@@ -30,9 +31,9 @@ function Logo(){
         }
       `}</style>
       <h1>
-        <Link style={link} to ='/'><a>NYTE Artwork</a></Link>
+        <Link style={link} to ='/'><a>NYTE ARTS</a></Link>
       </h1>
-      <p>Nyte Artwork is the showcase platform for games, film, media & entertainment artists emphasizing on the realm of night. It enables artists to showcase their portfolios in a slick way, discover & stay inspired, and connect with new opportunities.</p>
+      <p>NyteArts is the showcase platform for games, film, media & entertainment artists emphasizing on the realm of night. It enables artists to showcase their portfolios in a slick way, discover & stay inspired, and connect with new opportunities.</p>
     </div>
   );
 }

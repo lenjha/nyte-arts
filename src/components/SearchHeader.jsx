@@ -2,6 +2,7 @@ import React from 'react';
 import SearchBar from './SearchBar';
 import Login from './Login';
 
+
 function SearchHeader(){
   return(
     <div>

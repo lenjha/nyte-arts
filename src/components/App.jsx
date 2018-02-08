@@ -4,7 +4,7 @@ import Artwork from './Artwork';
 import Body from './Body';
 import Contact from './Contact';
 import Header from './Header';
-import AdSection from './AdSection';
+import LoginPage from './LoginPage';
 import { Route, Switch } from 'react-router-dom';
 
 function App() {
@@ -17,15 +17,16 @@ function App() {
           font-family: 'Open Sans', sans-serif;
       `}</style>
       <Header />
-      <AdSection />
       <Switch>
         <Route path='/about' component={About}/>
         <Route path='/contact' component={Contact}/>
         <Route path='/Artwork' component={Artwork}/>
+        <Route path='/loginPage' component={LoginPage}/>
+        <Body />
       </Switch>
-      <Body />
     </div>
   );
 }
 
+// <AdSection />
 export default App;
