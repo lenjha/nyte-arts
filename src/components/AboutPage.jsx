@@ -3,7 +3,7 @@ import React from 'react';
 function AboutPage(){
   return(
     <div>
-      <h1>ABOUT NYTE ARTS</h1>
+      <h1>ABOUT NYTE Artwork</h1>
     </div>
   );
 }

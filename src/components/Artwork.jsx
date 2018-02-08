@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Arts(){
+function Artwork(){
   return(
     <div>
       <style jsx>{`
@@ -11,4 +11,4 @@ function Arts(){
   );
 }
 
-export default Arts;
+export default Artwork;

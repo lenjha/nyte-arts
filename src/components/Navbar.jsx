@@ -1,11 +1,13 @@
-import About from './About';
-import Arts from './Arts';
-import Contact from './Contact';
 import React from 'react';
-import { Switch, Route } from 'react-router-dom';
+// import { Switch, Route } from 'react-router-dom';
 import {Link} from 'react-router-dom';
 
 function Navbar(){
+  const link={
+    textDecoration:'none',
+    color:'white'
+  };
+
   return(
     <div>
       <style jsx>{`
@@ -13,10 +15,13 @@ function Navbar(){
         display: flex;
         justify-content: space-around;
         padding: 7px;
+        a {
+          text-decoration: none;
+        }
       `}</style>
-      <Link to ='/about'>About</Link>
-      <Contact />
-      <Arts />
+      <Link style={link} to='/about'>About</Link>
+      <Link style={link} to='/contact'>Contact</Link>
+      <Link style={link} to='/artwork'>Artwork</Link>
     </div>
   );
 }
