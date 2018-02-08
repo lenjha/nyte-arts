@@ -7,13 +7,19 @@ function CommunityAnnouncement(props){
     <div>
       <style jsx>{`
         margin: 0;
-        padding: 5px;
+
+        .announcement {
+          padding: 10px;
+          margin: 10px auto;
+        }
       `}</style>
-      <img src={props.image}/>
-      <h3><b>{props.title}</b></h3>
-      <p><em>{props.author}, {props.date}</em></p>
-      <p>{props.content}</p>
-      <p>{props.comments}</p>
+      <div className='announcement'>
+        <img src={props.image}/>
+        <h3><b>{props.title}</b></h3>
+        <p><em>{props.author}, {props.date}</em></p>
+        <p>{props.content}</p>
+        <p>{props.comments}</p>
+      </div>
       <hr />
     </div>
   );
