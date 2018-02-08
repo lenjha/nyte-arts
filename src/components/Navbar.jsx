@@ -21,7 +21,7 @@ function Navbar(){
       `}</style>
       <Link style={link} to='/about'>About</Link>
       <Link style={link} to='/contact'>Contact</Link>
-      <Link style={link} to='/artwork'>Artwork</Link>
+      <Link style={link} to='/Gallery'>Gallery</Link>
     </div>
   );
 }

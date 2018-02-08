@@ -1,6 +1,6 @@
 import React from 'react';
 import About from './About';
-import Artwork from './Artwork';
+import Gallery from './Gallery';
 import Body from './Body';
 import Contact from './Contact';
 import Header from './Header';
@@ -11,7 +11,7 @@ function App() {
   return (
     <div>
       <style jsx>{`
-          background: darkgray;
+          background: red;
           display: flex;
           flex-direction: column;
           font-family: 'Open Sans', sans-serif;
@@ -20,7 +20,7 @@ function App() {
       <Switch>
         <Route path='/about' component={About}/>
         <Route path='/contact' component={Contact}/>
-        <Route path='/Artwork' component={Artwork}/>
+        <Route path='/Gallery' component={Gallery}/>
         <Route path='/loginPage' component={LoginPage}/>
         <Body />
       </Switch>
