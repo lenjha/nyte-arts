@@ -1,10 +1,11 @@
 import React from 'react';
+import CommunityAnnouncementList from './CommunityAnnouncementList';
 
-function Articles(){
+function CommunityBoard(){
   return(
-    <div>
+    <div >
       <style jsx>{`
-        width: 50%;
+        width: 25%;
         h3{
           font-family: 'Bungee Hairline', cursive;
           text-align: center;
@@ -12,10 +13,11 @@ function Articles(){
         }
       `}</style>
       <h3>
-        Articles
+        Community Board
       </h3>
+      <CommunityAnnouncementList />
     </div>
   );
 }
 
-export default Articles;
+export default CommunityBoard;

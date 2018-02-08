@@ -4,14 +4,16 @@ function FeaturedArtist(){
   return(
     <div>
       <style jsx>{`
-        background: salmon;
-        border: 1px solid black;
         height: 30%;
-
+        h3{
+          font-family: 'Bungee Hairline', cursive;
+          text-align: center;
+          margin: 5px auto;
+        }
       `}</style>
-      <h2>
-        FeaturedArtist works!
-      </h2>
+      <h3>
+        Featured Artist
+      </h3>
     </div>
   );
 }
