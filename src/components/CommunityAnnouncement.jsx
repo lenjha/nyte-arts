@@ -5,9 +5,13 @@ import PropTypes from 'prop-types';
 function CommunityAnnouncement(props){
   return(
     <div>
+      <style jsx>{`
+        margin: 0;
+        padding: 5px;
+      `}</style>
       <img src={props.image}/>
-      <h4>{props.title}</h4>
-      <p>{props.author}, {props.date}</p>
+      <h3><b>{props.title}</b></h3>
+      <p><em>{props.author}, {props.date}</em></p>
       <p>{props.content}</p>
       <p>{props.comments}</p>
       <hr></hr>

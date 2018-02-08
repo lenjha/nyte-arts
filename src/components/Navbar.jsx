@@ -2,6 +2,8 @@ import About from './About';
 import Arts from './Arts';
 import Contact from './Contact';
 import React from 'react';
+import { Switch, Route } from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 function Navbar(){
   return(
@@ -12,7 +14,7 @@ function Navbar(){
         justify-content: space-around;
         padding: 7px;
       `}</style>
-      <About />
+      <Link to ='/about'>About</Link>
       <Contact />
       <Arts />
     </div>

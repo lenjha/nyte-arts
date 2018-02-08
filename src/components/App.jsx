@@ -1,8 +1,10 @@
 import React from 'react';
 // import ReactDOM from 'react-dom';
+import About from './About';
 import Body from './Body';
 import Header from './Header';
 import AdSection from './AdSection';
+import { Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
@@ -15,6 +17,9 @@ function App() {
       `}</style>
       <Header />
       <AdSection />
+      <Switch>
+        <Route path='/about' component={About}/>
+      </Switch>
       <Body />
     </div>
   );

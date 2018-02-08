@@ -6,7 +6,7 @@ function About(){
       <style jsx>{`
         color: lightgray;
       `}</style>
-      About
+    ABOUT
     </div>
   );
 }
