@@ -11,7 +11,7 @@ function App() {
   return (
     <div>
       <style jsx>{`
-          background: red;
+          background: black;
           display: flex;
           flex-direction: column;
           font-family: 'Open Sans', sans-serif;

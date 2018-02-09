@@ -16,7 +16,9 @@ function Body(){
           flex-direction: row;
           height: auto;
           width: 100%;
-          color:white;
+          max-width: 2000px;
+          color: white;
+          margin: 0 auto;
         }
       `}</style>
 
