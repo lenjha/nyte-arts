@@ -66,10 +66,7 @@ const masterArtworkList = [
 
 function ArtworksList(){
   return(
-    <div style={{display:'flex', flexDirection:'row', flexWrap:'wrap', justifyContent:'center', width: '100%', marginTop: '30px'}} className='checkyoself'>
-      <style jsx>{`
-
-          `}</style>
+    <div style={{display:'flex', flexDirection:'row', flexWrap:'wrap', justifyContent:'center', width: '100%', marginTop: '30px'}}>
       {masterArtworkList.map((artwork, index) =>
         <ArtworkPage
           image={artwork.image}
